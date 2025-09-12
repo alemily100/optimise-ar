@@ -167,7 +167,7 @@ study$status <- with(study,
 
 layout(matrix(c(1,2,1,3), nrow=2))
 par(mar=c(6,6,1,2)+0.1)
-p<-ggplot(study, aes(loc, dose,  label = pat), show.legend = TRUE) +
+p<-ggplot(study, aes(loc, dose,  label = pat), show.legend = TRUE) + 
   annotate('rect', xmin=0, xmax=8, ymin=1.5, ymax=2.5, alpha=.2, fill='lightgreen')+
   geom_point(size = 10, shape = 21, fill = "white", colour="black", stroke=2) +
   geom_point(data=study, aes(loc, dose, fill=status), size = 10, shape = 21, stroke=2)+
@@ -191,7 +191,7 @@ p<-ggplot(study, aes(loc, dose,  label = pat), show.legend = TRUE) +
       "Both" = "Both C-DLT & P-DLT",
       "None" = NULL   
     ))+
-  scale_y_continuous(breaks=seq(from=1, by=1, length.out=3), labels=1:3)
+  scale_y_continuous(breaks=seq(from=1, by=1, length.out=3), labels=1:3)+coord_cartesian(ylim = c(-0.5, 3.5))
 p
 
 est_c<-optimise(like_c,c(0,10), u=c(0.06, 0.14, 0.25), data_frame=study, maximum = TRUE)
@@ -209,14 +209,14 @@ colnames(point)[3]<- "label"
 l<-ggplot()+ geom_point(data=point, aes(x=p_p, y=p_c), size=4, pch=4, stroke=1.5)+geom_text(data=point,aes(x = p_p, y = p_c,label=label), vjust=-2)+
   theme_bw()+theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),axis.text.x=element_text(size=15),axis.text.y=element_text(size=15),axis.title.x=element_text(size=15), plot.caption=element_text(size=15, hjust=0),
                    axis.title.y=element_text(size=15))+labs(x="Estimated P-DLT rate", y="Estimated C-DLT rate")+labs(caption="(b) Estimated P-DLT and C-DLT rate at final analysis.")+
-  geom_vline(xintercept=0.35, col="red", lwd=1.5)+geom_hline(yintercept=0.25, col="blue", lwd=1.5, lty=2) + xlim(0,0.5) + ylim(0,0.5)
+  geom_vline(xintercept=0.35, col="red", lwd=1.5, lty=2)+geom_hline(yintercept=0.25, col="red", lwd=1.5, lty=1) + xlim(0,0.5) + ylim(0,0.5)
 
 
-setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations/for_paper")
+setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
 pdf("case_study2_Figure6.pdf", width=13, height=8)
 plot_grid(
   p, l,
   ncol = 1,               # stack vertically
-  rel_heights = c(0.6, 0.4)   # adjust as needed
+  rel_heights = c(0.5, 0.5)   # adjust as needed
 )
 dev.off()
