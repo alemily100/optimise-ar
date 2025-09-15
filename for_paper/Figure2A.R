@@ -1,6 +1,6 @@
 setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations")
 library(ggh4x)
-
+library(tidyverse)
 #import dummy data
 ordinal_data <- read.csv("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations/dummy_ordinal.csv")[,-1]
 
@@ -43,7 +43,7 @@ prop$grade<- factor(prop$grade, levels = c("Discontinued", "Unreported", 5:1))
 facet_labels<-c("1"="Dose 1 (N=10)", "2"="Dose 2 (N=10)", "3"="Dose 3 (N=10)")
 
 #Final figure 
-setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations/for_paper")
+setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
 pdf("Figure2A.pdf")
 prop%>%filter(toxicity==2)%>%
   ggplot(aes(x=as.factor(timepoint)))+
@@ -54,5 +54,5 @@ prop%>%filter(toxicity==2)%>%
   facet_wrap2(~as.factor(dose), nrow=3, strip.position = "left", axes="all", labeller = as_labeller(facet_labels))+
   labs(x = "Timepoint",                       
        y = "Proportion",                       
-       fill = "Severity Grade")
+       fill = "Severity")
 dev.off()

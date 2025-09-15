@@ -25,15 +25,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.5052024"
-     inkscape:cx="172.20821"
-     inkscape:cy="273.15785"
+     inkscape:zoom="0.2526012"
+     inkscape:cx="1825.0111"
+     inkscape:cy="906.56735"
      inkscape:window-width="1920"
      inkscape:window-height="974"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g9702" />
   <defs
      id="defs2">
     <rect
@@ -3929,10 +3929,10 @@
          transform="matrix(1,0,0,-1,420.23,207.85)"
          style="font-variant:normal;font-weight:normal;font-size:11px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="text9706"><tspan
-           x="0 7.3369999 13.123 18.348 24.464001 28.292 30.733999 33.792 39.292 42.349998 50.908001 54.460999 60.577 66.693001"
+           x="0 7.3369999 13.123 18.348 24.464001 28.292 30.733999 33.792 39.292"
            y="0"
            sodipodi:role="line"
-           id="tspan9704">Severity Grade</tspan></text>
+           id="tspan9704">Severity </tspan></text>
     </g>
     <g
        id="g9710"

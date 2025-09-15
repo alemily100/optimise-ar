@@ -45,7 +45,7 @@ facet_labels<- c("1"="Symptomatic Adverse Event 1","2"="Symptomatic Adverse Even
 ice_n_pat <- prop %>%
   distinct(dose, n.pat)
 
-setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations/for_paper")
+setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
 pdf("Figure3B.pdf", height=4, width=7)
 prop%>%subset(toxicity %in% 4:6)%>% ggplot(aes(fill=base_adj,x=dose, y=proportion*100)) + 
   geom_bar(position="stack", stat="identity") + coord_flip()+
@@ -54,7 +54,7 @@ prop%>%subset(toxicity %in% 4:6)%>% ggplot(aes(fill=base_adj,x=dose, y=proportio
                     guide = guide_legend(reverse = TRUE))+
   labs(x = paste0("Dose (N=", paste(ice_n_pat$n.pat, collapse = "; "), ")"),                       
        y = "Percentage (%)",                       
-       fill = "Severity Grade")+
+       fill = "Severity")+
   theme(
     strip.text.y = element_text(angle = 0))
 dev.off()
