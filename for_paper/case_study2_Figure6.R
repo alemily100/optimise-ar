@@ -140,8 +140,8 @@ target_p<- 0.35
 sample<- 15
 no_enrolled<-3
 phi<-0.9
-true_tox_c<-c(0.05,0.25,0.40)
-true_tox_p<-c(0.10,0.15,0.35)
+true_tox_c<-c(0.10, 0.16, 0.25)
+true_tox_p<-c(0.2,0.35,0.5)
 no.dosages<- length(true_tox_c)
 target_clin<- 0.25
 target_pat<- 0.35
@@ -151,7 +151,7 @@ all_sc<-NULL
 a<- 0.35
 b<- 0.65
 
-set.seed(130)
+set.seed(139)
 
 trial<-trial_sim_original(u, v, sample,no_enrolled, phi, true_tox_c, true_tox_p, no.dosages, target_clin, target_pat,stop_prob, a, b, target_stop)
 study<-data.frame(trial[[1]])

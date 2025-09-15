@@ -139,8 +139,8 @@ target_p<- 0.35
 sample<- 15
 no_enrolled<-3
 phi<-0.9
-true_tox_c<-c(0.05,0.25,0.40)
-true_tox_p<-c(0.10,0.15,0.35)
+true_tox_c<-c(0.10, 0.16, 0.25)
+true_tox_p<-c(0.2,0.35,0.5)
 no.dosages<- length(true_tox_c)
 target_clin<- 0.25
 target_pat<- 0.35
@@ -150,7 +150,7 @@ all_sc<-NULL
 a<- 0.35
 b<- 0.65
 
-set.seed(130)
+set.seed(139)
 study<-trial_sim_original(u, v, sample,no_enrolled, phi, true_tox_c, true_tox_p, no.dosages, target_clin, target_pat,stop_prob, a, b, target_stop)
 
 ### FIGURE GENERATION
@@ -167,7 +167,7 @@ times[(times%>%filter(cdlt==0))[,1],3]<-NA
 times[(times%>%filter(pdlt==0))[,1],4]<-NA
 times$id <- factor(times$id, levels = unique(times$id))
 
-setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations/for_paper")
+setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
 pdf("case_study2_Figure8.pdf", width=12, height = 5)
 ggplot(times, aes(y = id)) +
   geom_segment(aes(x = start, xend = end, yend = id, color = factor(dose)), size = 3) +
@@ -183,7 +183,8 @@ ggplot(times, aes(y = id)) +
     labels = c("1" = "Dose level 1", "2" = "Dose level 2", "3" = "Dose level 3")
   ) +
   scale_fill_manual(
-    values = c("Clinician-DLT observation" = "yellow", "Patient-DLT observation" = "red")
+    values = c("Clinician-DLT observation" = "yellow", "Patient-DLT observation" = "red"),
+    labels = c("Clinician-DLT observation" = "C-DLT observation", "Patient-DLT observation" = "P-DLT observation")
   ) +
   guides(fill = guide_legend(order = 1), color = guide_legend(order = 2)) +
   scale_y_discrete(labels = paste("Patient", seq_along(levels(times$id)))) +
