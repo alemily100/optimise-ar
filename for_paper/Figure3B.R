@@ -50,7 +50,7 @@ pdf("Figure3B.pdf", height=4, width=7)
 prop%>%subset(toxicity %in% 4:6)%>% ggplot(aes(fill=base_adj,x=dose, y=proportion*100)) + 
   geom_bar(position="stack", stat="identity") + coord_flip()+
   facet_grid(toxicity ~ .,scales = "free_y", labeller = as_labeller(facet_labels))+
-  scale_fill_manual(values=rev(c("darkgreen", "lightgreen","yellow","orange", "red", "darkgrey")), labels =rev(c("None", "Mild", "Moderate", "Severe", "Very Severe", "Unreported")),
+  scale_fill_manual(values=rev(c("#009E73", "#56B4E9","#F0E442","#E69F00", "#D55E00", "darkgrey")), labels =rev(c("None", "Mild", "Moderate", "Severe", "Very Severe", "Unreported")),
                     guide = guide_legend(reverse = TRUE))+
   labs(x = paste0("Dose (N=", paste(ice_n_pat$n.pat, collapse = "; "), ")"),                       
        y = "Percentage (%)",                       

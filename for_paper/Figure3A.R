@@ -99,12 +99,12 @@ ice_n_pat <- prop %>%
 
 
 labels<- cbind(c(-5, -4, -3, -2, -1, 1, 2, 3, 4, 5),
-                   c("red", "deeppink", "orange","gold","lightyellow3", "lightblue", "darkseagreen3", "darkolivegreen3", "chartreuse3", "chartreuse4"),
+                   c("#D55E00", "#CC79A7", "#E69F00","#F0E442","#999999", "#56B4E9", "#009E73", "#0072B2", "#882E72", "#444444"),
                    rev(c("Improve by 5", "Improve by 4", "Improve by 3","Improve by 2", "Improve by 1", "Worsen by 1", 
                   "Worsen by 2", "Worsen by 3", "Worsen by 4", "Worsen by 5")))
 
 colnames(labels)<- c("score", "colour", "leg")
-setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations/for_paper")
+setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
 
 pdf("Figure3A.pdf", height=8, width=15)
 ggplot(val%>%subset(toxicity %in% 4:6),aes(x = dose, y = proportion, fill = grade_change, group=dose)) +

@@ -48,7 +48,7 @@ pdf("Figure2A.pdf")
 prop%>%filter(toxicity==2)%>%
   ggplot(aes(x=as.factor(timepoint)))+
   geom_bar(aes(x=as.factor(timepoint),y = proportion, fill = as.factor(grade)), stat = "identity", position = "stack")+
-  scale_fill_manual(values=rev(c("darkgreen", "lightgreen","yellow","orange", "red", "grey","grey30")), labels =rev(c("None", "Mild", "Moderate", "Severe", "Very Severe", "Unreported", "Discontinued")),
+  scale_fill_manual(values=rev(c("#009E73", "#56B4E9","#F0E442","#E69F00", "#D55E00", "grey","grey30")), labels =rev(c("None", "Mild", "Moderate", "Severe", "Very Severe", "Unreported", "Discontinued")),
                     guide = guide_legend(reverse = TRUE))+
   theme_bw(base_size=14) + 
   facet_wrap2(~as.factor(dose), nrow=3, strip.position = "left", axes="all", labeller = as_labeller(facet_labels))+
