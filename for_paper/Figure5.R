@@ -213,7 +213,7 @@ l<-ggplot()+ geom_point(data=point, aes(x=p_p, y=p_c), size=4, pch=4, stroke=1.5
 
 
 setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
-pdf("case_study2_Figure6.pdf", width=13, height=8)
+pdf("Figure5.pdf", width=13, height=8)
 plot_grid(
   p, l,
   ncol = 1,               # stack vertically
