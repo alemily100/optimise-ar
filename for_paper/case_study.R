@@ -49,7 +49,7 @@ summary<-summary%>%mutate(l.ci=mean-(1.96*sd))%>%mutate(u.ci=mean+(1.96*sd))
 
 pd <- position_dodge(width = 0.2)
 
-fm1 <- lmer(adjusted_value ~  timepoint + factor(dose) + (1 | id), diff, na.action = na.omit)
+fm1 <- lmer(adjusted_value ~  timepoint + factor(dose) + (1 | id) + baseline, diff, na.action = na.omit)
 tidy_model <- broom.mixed::tidy(fm1, effects = "fixed", conf.level=0.95, conf.int = TRUE)
 
 summary<-summary%>%mutate(pred = case_when(
@@ -59,9 +59,9 @@ summary<-summary%>%mutate(pred = case_when(
 ))
   
 #### FIGURE GENERATION
-setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations/for_paper")
+setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
 
-pdf("Figure5.pdf", width=10, height=5)
+pdf("case_study.pdf", width=10, height=5)
 summary %>% ggplot(aes(x = as.factor(timepoint), y = mean, group=as.factor(dose), shape=as.factor(dose),colour = as.factor(dose))) +
           scale_colour_manual(
              values = c("1" = "#66C2A5",
@@ -69,15 +69,17 @@ summary %>% ggplot(aes(x = as.factor(timepoint), y = mean, group=as.factor(dose)
                         "3" = "#FC8D62",
                         label = c("Dose level 1", "Dose level 2", "Dose level 3")
            ), name=element_blank()) +
-          geom_ribbon(aes(ymin = 10, ymax = 20, fill = "palegreen1"), alpha = 0.3, colour = NA) + 
-          geom_ribbon(aes(ymin = -20, ymax = -10, fill = "red"), alpha = 0.1, colour = NA) +
+          geom_ribbon(aes(ymin = 10, ymax = 20, fill = "#009E73"), alpha = 0.1, colour = NA) + 
+          geom_ribbon(aes(ymin = 5, ymax = 10, fill = "#56B4E9"), alpha = 0.1, colour = NA) + 
+          geom_ribbon(aes(ymin = -5, ymax = -10, fill = "#E69F00"), alpha = 0.05, colour = NA) +
+          geom_ribbon(aes(ymin = -10, ymax = -20, fill = "#D55E00"), alpha = 0.1, colour = NA) + 
   geom_line(size=1.5, alpha=0.4)+
   theme_minimal(base_size=14) +
   guides(shape = guide_legend(title = "Dose"),
          colour = guide_legend(title = "Dose"))+
           theme_minimal(base_size=14)+
           xlab("Weeks from baseline") + ylab("Mean change from baseline across timepoints \n for EORTC QLQ-C30 Global health status score") +
-  scale_fill_manual(name = "Threshold", values=c("palegreen1", "red"), label=c("Improvement", "Worsening"))+
+  scale_fill_manual(name = "Threshold", values=c("#009E73","#56B4E9","#E69F00", "#D55E00"), label=c("Improvement of at least 10","Improvement of at least 5","Worsening of at least 5", "Worsening of at least 10"))+
   geom_segment(aes(x = 0.8, xend = 0.8, y = 0, yend = 20), 
                colour = "darkgrey", size = 0.8, arrow = arrow(type="closed",
                                                               length = unit(0.1, "inches")))+
