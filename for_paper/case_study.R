@@ -61,6 +61,13 @@ summary<-summary%>%mutate(pred = case_when(
 #### FIGURE GENERATION
 setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
 
+threshold_levels <- c(
+  "Improvement of at least 10",
+  "Improvement of at least 5",
+  "Worsening of at least 5",
+  "Worsening of at least 10"
+)
+
 pdf("case_study.pdf", width=10, height=5)
 summary %>% ggplot(aes(x = as.factor(timepoint), y = mean, group=as.factor(dose), shape=as.factor(dose),colour = as.factor(dose))) +
           scale_colour_manual(
@@ -69,28 +76,35 @@ summary %>% ggplot(aes(x = as.factor(timepoint), y = mean, group=as.factor(dose)
                         "3" = "#FC8D62",
                         label = c("Dose level 1", "Dose level 2", "Dose level 3")
            ), name=element_blank()) +
-          geom_ribbon(aes(ymin = 10, ymax = 20, fill = "#009E73"), alpha = 0.1, colour = NA) + 
-          geom_ribbon(aes(ymin = 5, ymax = 10, fill = "#56B4E9"), alpha = 0.1, colour = NA) + 
-          geom_ribbon(aes(ymin = -5, ymax = -10, fill = "#E69F00"), alpha = 0.05, colour = NA) +
-          geom_ribbon(aes(ymin = -10, ymax = -20, fill = "#D55E00"), alpha = 0.1, colour = NA) + 
+          geom_ribbon(aes(ymin = 10, ymax = 20, fill = factor("Improvement of at least 10", levels = threshold_levels)), alpha = 0.1, colour = NA) + 
+          geom_ribbon(aes(ymin = 5, ymax = 10, fill = factor("Improvement of at least 5", levels = threshold_levels)), alpha = 0.1, colour = NA) + 
+          geom_ribbon(aes(ymin = -5, ymax = -10, fill = factor("Worsening of at least 5", levels = threshold_levels)), alpha = 0.05, colour = NA) +
+          geom_ribbon(aes(ymin = -10, ymax = -20, fill = factor("Worsening of at least 10", levels = threshold_levels)), alpha = 0.1, colour = NA) + 
   geom_line(size=1.5, alpha=0.4)+
   theme_minimal(base_size=14) +
   guides(shape = guide_legend(title = "Dose"),
          colour = guide_legend(title = "Dose"))+
           theme_minimal(base_size=14)+
           xlab("Weeks from baseline") + ylab("Mean change from baseline across timepoints \n for EORTC QLQ-C30 Global health status score") +
-  scale_fill_manual(name = "Threshold", values=c("#009E73","#56B4E9","#E69F00", "#D55E00"), label=c("Improvement of at least 10","Improvement of at least 5","Worsening of at least 5", "Worsening of at least 10"))+
+  scale_fill_manual(
+    name = "Threshold",
+    values = c(
+      "Improvement of at least 10" = "#009E73",
+      "Improvement of at least 5"  = "#56B4E9",
+      "Worsening of at least 5"    = "#E69F00",
+      "Worsening of at least 10"   = "#D55E00"
+    )
+  )+
   geom_segment(aes(x = 0.8, xend = 0.8, y = 0, yend = 20), 
                colour = "darkgrey", size = 0.8, arrow = arrow(type="closed",
                                                               length = unit(0.1, "inches")))+
   geom_segment(aes(x = 0.8, xend = 0.8, y = 0, yend = -20), 
                colour = "darkgrey", size = 0.8, arrow = arrow(type="closed",
                                                               length = unit(0.1, "inches")))+
-  geom_text(aes(x = 1.6, y = 17, label = "Improvement"),
-            inherit.aes = FALSE)+
-  geom_text(aes(x = 1.6, y = -17, label = "Worsening"),
-            inherit.aes = FALSE)+
-  geom_line(aes(x=as.factor(timepoint), y=pred), linetype=2, size=1.5)
+  annotate("text", x = 1.6, y = 17, label = "Improvement") +
+  annotate("text", x = 1.6, y = -17, label = "Worsening")+
+  geom_line(aes(x=as.factor(timepoint), y=pred), linetype=2, size=1.5)+
+  guides(fill = guide_legend(override.aes = list(alpha = 0.4)))
 dev.off()
   
 no.pat<-sample%>%group_by(timepoint, dose)%>%count(ICE, missing)%>%filter(dose==3)
