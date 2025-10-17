@@ -168,7 +168,7 @@ times[(times%>%filter(pdlt==0))[,1],4]<-NA
 times$id <- factor(times$id, levels = unique(times$id))
 
 setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
-pdf("case_study2_Figure8.pdf", width=12, height = 5)
+pdf("Figure5D.pdf", width=12, height = 5)
 ggplot(times, aes(y = id)) +
   geom_segment(aes(x = start, xend = end, yend = id, color = factor(dose)), size = 3) +
   geom_point(aes(x = cdlt, fill = "Clinician-DLT observation"), shape = 21, color = "black", size = 4, stroke = 1) +
@@ -183,7 +183,7 @@ ggplot(times, aes(y = id)) +
     labels = c("1" = "Dose level 1", "2" = "Dose level 2", "3" = "Dose level 3")
   ) +
   scale_fill_manual(
-    values = c("Clinician-DLT observation" = "yellow", "Patient-DLT observation" = "red"),
+    values = c("Clinician-DLT observation" = "red", "Patient-DLT observation" = "yellow"),
     labels = c("Clinician-DLT observation" = "C-DLT observation", "Patient-DLT observation" = "P-DLT observation")
   ) +
   guides(fill = guide_legend(order = 1), color = guide_legend(order = 2)) +
