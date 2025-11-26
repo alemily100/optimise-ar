@@ -26,8 +26,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.0104048"
-     inkscape:cx="377.07659"
-     inkscape:cy="263.26082"
+     inkscape:cx="745.24587"
+     inkscape:cy="589.8626"
      inkscape:window-width="1920"
      inkscape:window-height="974"
      inkscape:window-x="-11"
@@ -1278,12 +1278,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:400;font-size:2.37787px;line-height:125%;font-family:Aptos;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.161212"
-       x="171.95146"
-       y="159.49948"
+       x="175.65558"
+       y="160.5578"
        id="text58272"><tspan
          sodipodi:role="line"
-         x="171.95146"
-         y="159.49948"
+         x="175.65558"
+         y="160.5578"
          id="tspan58270"
          style="stroke-width:0.161212"><tspan
            dx="0"
@@ -5413,7 +5413,7 @@
     </g>
     <g
        id="g43713"
-       transform="matrix(0.1905226,0,0,-0.1905226,158.10252,163.06834)">
+       transform="matrix(0.1905226,0,0,-0.1905226,161.80671,164.12668)">
       <g
          id="g43715"
          clip-path="url(#clipPath43719)">
@@ -11583,7 +11583,7 @@
     </g>
     <g
        id="g46607"
-       transform="matrix(0.1905226,0,0,-0.1905226,158.10252,163.06834)">
+       transform="matrix(0.1905226,0,0,-0.1905226,161.80671,164.12668)">
       <text
          xml:space="preserve"
          transform="matrix(1,0,0,-1,35.82,53.73)"
@@ -11631,7 +11631,7 @@
     </g>
     <g
        id="g46655"
-       transform="matrix(0.1905226,0,0,-0.1905226,158.10252,163.06834)">
+       transform="matrix(0.1905226,0,0,-0.1905226,161.80671,164.12668)">
       <text
          xml:space="preserve"
          transform="matrix(1,0,0,-1,168.59,26.01)"
@@ -11699,7 +11699,7 @@
     </g>
     <g
        id="g46705"
-       transform="matrix(0.1905226,0,0,-0.1905226,158.10252,163.06834)">
+       transform="matrix(0.1905226,0,0,-0.1905226,161.80671,164.12668)">
       <text
          xml:space="preserve"
          transform="matrix(1,0,0,-1,306.39,10.05)"
@@ -11712,7 +11712,7 @@
     </g>
     <g
        id="g46713"
-       transform="matrix(0.1905226,0,0,-0.1905226,158.10252,163.06834)">
+       transform="matrix(0.1905226,0,0,-0.1905226,161.80671,164.12668)">
       <text
          xml:space="preserve"
          transform="matrix(0,1,1,0,17.03,93.34)"
@@ -11725,7 +11725,7 @@
     </g>
     <g
        id="g46739"
-       transform="matrix(0.1905226,0,0,-0.1905226,151.22331,133.96399)">
+       transform="matrix(0.1905226,0,0,-0.1905226,154.9275,135.02233)">
       <path
          d="m 655.59,237.95 v 2.59"
          style="fill:none;stroke:#333333;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -11745,7 +11745,7 @@
     </g>
     <g
        id="g46755"
-       transform="matrix(0.1905226,0,0,-0.1905226,151.22331,133.96399)">
+       transform="matrix(0.1905226,0,0,-0.1905226,154.9275,135.02233)">
       <path
          d="m 655.59,220.67 v 2.59"
          style="fill:none;stroke:#333333;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -11765,7 +11765,7 @@
     </g>
     <g
        id="g46771"
-       transform="matrix(0.1905226,0,0,-0.1905226,151.22331,133.96399)">
+       transform="matrix(0.1905226,0,0,-0.1905226,154.9275,135.02233)">
       <path
          d="m 655.59,203.39 v 2.59"
          style="fill:none;stroke:#333333;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
@@ -11785,7 +11785,7 @@
     </g>
     <g
        id="g46783"
-       transform="matrix(0.1905226,0,0,-0.1905226,151.22331,133.96399)">
+       transform="matrix(0.1905226,0,0,-0.1905226,154.9275,135.02233)">
       <text
          xml:space="preserve"
          transform="matrix(1,0,0,-1,671.2,240.91)"
@@ -11798,7 +11798,7 @@
     </g>
     <g
        id="g46791"
-       transform="matrix(0.1905226,0,0,-0.1905226,151.22331,133.96399)">
+       transform="matrix(0.1905226,0,0,-0.1905226,154.9275,135.02233)">
       <text
          xml:space="preserve"
          transform="matrix(1,0,0,-1,671.2,223.63)"
@@ -11811,7 +11811,7 @@
     </g>
     <g
        id="g46799"
-       transform="matrix(0.1905226,0,0,-0.1905226,151.22331,133.96399)">
+       transform="matrix(0.1905226,0,0,-0.1905226,154.9275,135.02233)">
       <text
          xml:space="preserve"
          transform="matrix(1,0,0,-1,671.2,206.35)"
@@ -11826,558 +11826,713 @@
        id="rect58652"
        style="fill:#0000ff;fill-opacity:0;fill-rule:evenodd;stroke:#00a7ba;stroke-width:0.853;stroke-dasharray:none;stroke-opacity:1"
        d="M 137.49548 4.3651082 L 137.49548 121.99204 L 5.9216024 121.99204 L 5.9216024 206.43288 L 144.42994 206.43288 L 144.42994 206.36673 L 292.8953 206.36673 L 292.8953 4.3651082 L 137.49548 4.3651082 z " />
+    <path
+       d="M 133.4554,179.59758 H 281.17751"
+       stroke="#000000"
+       stroke-width="0.145372"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path64579" />
+    <path
+       d="M 133.27023,192.01429 H 281.62454"
+       stroke="#000000"
+       stroke-width="0.145681"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       fill="none"
+       fill-rule="evenodd"
+       id="path64581" />
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64583"
+       x="276.04178"
+       y="169.67152"
+       style="stroke-width:0.107784">7</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64585"
+       x="264.44745"
+       y="169.67152"
+       style="stroke-width:0.107784">7</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64587"
+       x="252.8526"
+       y="169.67152"
+       style="stroke-width:0.107784">8</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64589"
+       x="241.25807"
+       y="169.67152"
+       style="stroke-width:0.107784">8</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64591"
+       x="229.66365"
+       y="169.67152"
+       style="stroke-width:0.107784">9</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64593"
+       x="218.06912"
+       y="169.67152"
+       style="stroke-width:0.107784">9</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64595"
+       x="206.4747"
+       y="169.67152"
+       style="stroke-width:0.107784">9</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64597"
+       x="194.20662"
+       y="169.67152"
+       style="stroke-width:0.107784">10</text>
     <g
-       transform="matrix(0.1077839,0,0,0.1077839,145.4026,141.66723)"
-       id="g64769">
-      <path
-         d="M -101.714,342.092 H 1237.71"
-         stroke="#000000"
-         stroke-width="1.33333"
-         stroke-linejoin="round"
-         stroke-miterlimit="10"
-         fill="none"
-         fill-rule="evenodd"
-         id="path64579" />
-      <path
-         d="M -101.714,457.292 H 1237.71"
-         stroke="#000000"
-         stroke-width="1.33333"
-         stroke-linejoin="round"
-         stroke-miterlimit="10"
-         fill="none"
-         fill-rule="evenodd"
-         id="path64581" />
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1177.68,250)"
-         id="text64583">7</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1070.11,250)"
-         id="text64585">7</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(962.536,250)"
-         id="text64587">8</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(854.964,250)"
-         id="text64589">8</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(747.393,250)"
-         id="text64591">9</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(639.821,250)"
-         id="text64593">9</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(532.25,250)"
-         id="text64595">9</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(418.429,250)"
-         id="text64597">10</text>
-      <g
-         id="g64601">
-        <text
-           font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-           font-weight="700"
-           font-size="24px"
-           transform="translate(294.952,254)"
-           id="text64599">Dose 1</text>
-      </g>
+       id="g64601"
+       transform="matrix(0.1077839,0,0,0.1077839,149.10679,142.72557)">
       <text
          font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
          font-weight="700"
          font-size="24px"
-         transform="translate(-11.7963,278)"
-         id="text64603">Sample size (n = 30)</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1177.68,288)"
-         id="text64605">9</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1070.11,288)"
-         id="text64607">9</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(956.286,288)"
-         id="text64609">10</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(848.714,288)"
-         id="text64611">10</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(741.143,288)"
-         id="text64613">10</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(633.571,288)"
-         id="text64615">10</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(526,288)"
-         id="text64617">10</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(418.429,288)"
-         id="text64619">10</text>
-      <g
-         id="g64623">
-        <text
-           font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-           font-weight="700"
-           font-size="24px"
-           transform="translate(294.952,292)"
-           id="text64621">Dose 2</text>
-      </g>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1177.68,327)"
-         id="text64625">8</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1070.11,327)"
-         id="text64627">8</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(962.536,327)"
-         id="text64629">8</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(854.964,327)"
-         id="text64631">8</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(747.393,327)"
-         id="text64633">8</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(639.821,327)"
-         id="text64635">9</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(532.25,327)"
-         id="text64637">9</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(418.429,327)"
-         id="text64639">10</text>
-      <g
-         id="g64643">
-        <text
-           font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-           font-weight="700"
-           font-size="24px"
-           transform="translate(294.952,330)"
-           id="text64641">Dose 3</text>
-      </g>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1177.68,374)"
-         id="text64645">3</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1070.11,374)"
-         id="text64647">3</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(962.536,374)"
-         id="text64649">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(854.964,374)"
-         id="text64651">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(747.393,374)"
-         id="text64653">1</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(639.821,374)"
-         id="text64655">1</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(532.25,374)"
-         id="text64657">1</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(424.679,374)"
-         id="text64659">0</text>
-      <g
-         id="g64663">
-        <text
-           font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-           font-weight="700"
-           font-size="24px"
-           transform="translate(294.952,369)"
-           id="text64661">Dose 1</text>
-      </g>
+         transform="translate(294.952,254)"
+         id="text64599">Dose 1</text>
+    </g>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="2.58681px"
+       id="text64603"
+       x="147.83527"
+       y="174.27695"
+       style="stroke-width:0.107784">Sample size (n = 30)</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64605"
+       x="276.04178"
+       y="173.7673"
+       style="stroke-width:0.107784">9</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64607"
+       x="264.44745"
+       y="173.7673"
+       style="stroke-width:0.107784">9</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64609"
+       x="252.17894"
+       y="173.7673"
+       style="stroke-width:0.107784">10</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64611"
+       x="240.58441"
+       y="173.7673"
+       style="stroke-width:0.107784">10</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64613"
+       x="228.98999"
+       y="173.7673"
+       style="stroke-width:0.107784">10</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64615"
+       x="217.39546"
+       y="173.7673"
+       style="stroke-width:0.107784">10</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64617"
+       x="205.80104"
+       y="173.7673"
+       style="stroke-width:0.107784">10</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64619"
+       x="194.20662"
+       y="173.7673"
+       style="stroke-width:0.107784">10</text>
+    <g
+       id="g64623"
+       transform="matrix(0.1077839,0,0,0.1077839,149.10679,142.72557)">
       <text
          font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
          font-weight="700"
          font-size="24px"
-         transform="translate(-6.38955,393)"
-         id="text64665">Intercurrent events</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1177.68,412)"
-         id="text64667">1</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1070.11,412)"
-         id="text64669">1</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(962.536,412)"
-         id="text64671">0</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(854.964,412)"
-         id="text64673">0</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(747.393,412)"
-         id="text64675">0</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(639.821,412)"
-         id="text64677">0</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(532.25,412)"
-         id="text64679">0</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(424.679,412)"
-         id="text64681">0</text>
-      <g
-         id="g64685">
-        <text
-           font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-           font-weight="700"
-           font-size="24px"
-           transform="translate(294.952,407)"
-           id="text64683">Dose 2</text>
-      </g>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1177.68,450)"
-         id="text64687">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1070.11,450)"
-         id="text64689">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(962.536,450)"
-         id="text64691">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(854.964,450)"
-         id="text64693">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(747.393,450)"
-         id="text64695">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(639.821,450)"
-         id="text64697">1</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(532.25,450)"
-         id="text64699">1</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(424.679,450)"
-         id="text64701">0</text>
-      <g
-         id="g64705">
-        <text
-           font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-           font-weight="700"
-           font-size="24px"
-           transform="translate(294.952,446)"
-           id="text64703">Dose 3</text>
-      </g>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1177.68,489)"
-         id="text64707">3</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1070.11,489)"
-         id="text64709">3</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(962.536,489)"
-         id="text64711">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(854.964,489)"
-         id="text64713">3</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(747.393,489)"
-         id="text64715">1</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(639.821,489)"
-         id="text64717">3</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(532.25,489)"
-         id="text64719">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(424.679,489)"
-         id="text64721">2</text>
-      <g
-         id="g64725">
-        <text
-           font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-           font-weight="700"
-           font-size="24px"
-           transform="translate(294.952,484)"
-           id="text64723">Dose 1</text>
-      </g>
+         transform="translate(294.952,292)"
+         id="text64621">Dose 2</text>
+    </g>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64625"
+       x="276.04178"
+       y="177.97089"
+       style="stroke-width:0.107784">8</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64627"
+       x="264.44745"
+       y="177.97089"
+       style="stroke-width:0.107784">8</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64629"
+       x="252.8526"
+       y="177.97089"
+       style="stroke-width:0.107784">8</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64631"
+       x="241.25807"
+       y="177.97089"
+       style="stroke-width:0.107784">8</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64633"
+       x="229.66365"
+       y="177.97089"
+       style="stroke-width:0.107784">8</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64635"
+       x="218.06912"
+       y="177.97089"
+       style="stroke-width:0.107784">9</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64637"
+       x="206.4747"
+       y="177.97089"
+       style="stroke-width:0.107784">9</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64639"
+       x="194.20662"
+       y="177.97089"
+       style="stroke-width:0.107784">10</text>
+    <g
+       id="g64643"
+       transform="matrix(0.1077839,0,0,0.1077839,149.10679,142.72557)">
       <text
          font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
          font-weight="700"
          font-size="24px"
-         transform="translate(26.8671,522)"
-         id="text64727">Missing data</text>
+         transform="translate(294.952,330)"
+         id="text64641">Dose 3</text>
+    </g>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64645"
+       x="276.04178"
+       y="183.03673"
+       style="stroke-width:0.107784">3</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64647"
+       x="264.44745"
+       y="183.03673"
+       style="stroke-width:0.107784">3</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64649"
+       x="252.8526"
+       y="183.03673"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64651"
+       x="241.25807"
+       y="183.03673"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64653"
+       x="229.66365"
+       y="183.03673"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64655"
+       x="218.06912"
+       y="183.03673"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64657"
+       x="206.4747"
+       y="183.03673"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64659"
+       x="194.88028"
+       y="183.03673"
+       style="stroke-width:0.107784">0</text>
+    <g
+       id="g64663"
+       transform="matrix(0.1077839,0,0,0.1077839,149.10679,142.72557)">
       <text
          font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
+         font-weight="700"
          font-size="24px"
-         transform="translate(1177.68,527)"
-         id="text64729">1</text>
+         transform="translate(294.952,369)"
+         id="text64661">Dose 1</text>
+    </g>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="2.58681px"
+       id="text64665"
+       x="133.07228"
+       y="186.6721"
+       style="stroke-width:0.107784">Cumulative intercurrent events</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64667"
+       x="276.04178"
+       y="187.13252"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64669"
+       x="264.44745"
+       y="187.13252"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64671"
+       x="252.8526"
+       y="187.13252"
+       style="stroke-width:0.107784">0</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64673"
+       x="241.25807"
+       y="187.13252"
+       style="stroke-width:0.107784">0</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64675"
+       x="229.66365"
+       y="187.13252"
+       style="stroke-width:0.107784">0</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64677"
+       x="218.06912"
+       y="187.13252"
+       style="stroke-width:0.107784">0</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64679"
+       x="206.4747"
+       y="187.13252"
+       style="stroke-width:0.107784">0</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64681"
+       x="194.88028"
+       y="187.13252"
+       style="stroke-width:0.107784">0</text>
+    <g
+       id="g64685"
+       transform="matrix(0.1077839,0,0,0.1077839,149.10679,142.72557)">
       <text
          font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
+         font-weight="700"
          font-size="24px"
-         transform="translate(1070.11,527)"
-         id="text64731">1</text>
+         transform="translate(294.952,407)"
+         id="text64683">Dose 2</text>
+    </g>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64687"
+       x="276.04178"
+       y="191.2283"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64689"
+       x="264.44745"
+       y="191.2283"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64691"
+       x="252.8526"
+       y="191.2283"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64693"
+       x="241.25807"
+       y="191.2283"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64695"
+       x="229.66365"
+       y="191.2283"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64697"
+       x="218.06912"
+       y="191.2283"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64699"
+       x="206.4747"
+       y="191.2283"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64701"
+       x="194.88028"
+       y="191.2283"
+       style="stroke-width:0.107784">0</text>
+    <g
+       id="g64705"
+       transform="matrix(0.1077839,0,0,0.1077839,149.10679,142.72557)">
       <text
          font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
+         font-weight="700"
          font-size="24px"
-         transform="translate(962.536,527)"
-         id="text64733">1</text>
+         transform="translate(294.952,446)"
+         id="text64703">Dose 3</text>
+    </g>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64707"
+       x="276.04178"
+       y="195.43188"
+       style="stroke-width:0.107784">3</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64709"
+       x="264.44745"
+       y="195.43188"
+       style="stroke-width:0.107784">3</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64711"
+       x="252.8526"
+       y="195.43188"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64713"
+       x="241.25807"
+       y="195.43188"
+       style="stroke-width:0.107784">3</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64715"
+       x="229.66365"
+       y="195.43188"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64717"
+       x="218.06912"
+       y="195.43188"
+       style="stroke-width:0.107784">3</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64719"
+       x="206.4747"
+       y="195.43188"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64721"
+       x="194.88028"
+       y="195.43188"
+       style="stroke-width:0.107784">2</text>
+    <g
+       id="g64725"
+       transform="matrix(0.1077839,0,0,0.1077839,149.10679,142.72557)">
       <text
          font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
+         font-weight="700"
          font-size="24px"
-         transform="translate(854.964,527)"
-         id="text64735">1</text>
+         transform="translate(294.952,484)"
+         id="text64723">Dose 1</text>
+    </g>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="700"
+       font-size="2.58681px"
+       id="text64727"
+       x="141.4193"
+       y="198.98875"
+       style="stroke-width:0.107784">Missing data at timepoint</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64729"
+       x="276.04178"
+       y="199.52766"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64731"
+       x="264.44745"
+       y="199.52766"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64733"
+       x="252.8526"
+       y="199.52766"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64735"
+       x="241.25807"
+       y="199.52766"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64737"
+       x="229.66365"
+       y="199.52766"
+       style="stroke-width:0.107784">1</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64739"
+       x="218.06912"
+       y="199.52766"
+       style="stroke-width:0.107784">0</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64741"
+       x="206.4747"
+       y="199.52766"
+       style="stroke-width:0.107784">0</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64743"
+       x="194.88028"
+       y="199.52766"
+       style="stroke-width:0.107784">1</text>
+    <g
+       id="g64747"
+       transform="matrix(0.1077839,0,0,0.1077839,149.10679,142.72557)">
       <text
          font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
+         font-weight="700"
          font-size="24px"
-         transform="translate(747.393,527)"
-         id="text64737">1</text>
+         transform="translate(294.952,522)"
+         id="text64745">Dose 2</text>
+    </g>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64749"
+       x="276.04178"
+       y="203.73123"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64751"
+       x="264.44745"
+       y="203.73123"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64753"
+       x="252.8526"
+       y="203.73123"
+       style="stroke-width:0.107784">2</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64755"
+       x="241.25807"
+       y="203.73123"
+       style="stroke-width:0.107784">3</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64757"
+       x="229.66365"
+       y="203.73123"
+       style="stroke-width:0.107784">4</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64759"
+       x="218.06912"
+       y="203.73123"
+       style="stroke-width:0.107784">3</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64761"
+       x="206.4747"
+       y="203.73123"
+       style="stroke-width:0.107784">3</text>
+    <text
+       font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
+       font-weight="400"
+       font-size="2.58681px"
+       id="text64763"
+       x="194.88028"
+       y="203.73123"
+       style="stroke-width:0.107784">0</text>
+    <g
+       id="g64767"
+       transform="matrix(0.1077839,0,0,0.1077839,149.10679,142.72557)">
       <text
          font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
+         font-weight="700"
          font-size="24px"
-         transform="translate(639.821,527)"
-         id="text64739">0</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(532.25,527)"
-         id="text64741">0</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(424.679,527)"
-         id="text64743">1</text>
-      <g
-         id="g64747">
-        <text
-           font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-           font-weight="700"
-           font-size="24px"
-           transform="translate(294.952,522)"
-           id="text64745">Dose 2</text>
-      </g>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1177.68,566)"
-         id="text64749">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(1070.11,566)"
-         id="text64751">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(962.536,566)"
-         id="text64753">2</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(854.964,566)"
-         id="text64755">3</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(747.393,566)"
-         id="text64757">4</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(639.821,566)"
-         id="text64759">3</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(532.25,566)"
-         id="text64761">3</text>
-      <text
-         font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-         font-weight="400"
-         font-size="24px"
-         transform="translate(424.679,566)"
-         id="text64763">0</text>
-      <g
-         id="g64767">
-        <text
-           font-family="'Aptos Display', 'Aptos Display_MSFontService', sans-serif"
-           font-weight="700"
-           font-size="24px"
-           transform="translate(294.952,561)"
-           id="text64765">Dose 3</text>
-      </g>
+         transform="translate(294.952,561)"
+         id="text64765">Dose 3</text>
     </g>
     <g
        id="g12113"
