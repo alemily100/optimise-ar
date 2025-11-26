@@ -1,4 +1,4 @@
-setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations")
+setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar")
 source("functions_synthesise_data.R")
 library(tidyverse)
 library(lubridate)
@@ -11,7 +11,7 @@ library(grid)
 library(survival)
 
 #import dummy data
-ordinal_data <- read.csv("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations/dummy_ordinal.csv")[,-1]
+ordinal_data <- read.csv("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/dummy_ordinal.csv")[,-1]
 
 
 #### FIGURE GENERATION
@@ -60,8 +60,8 @@ tbl_grob <- tableGrob(
   )
 )
 
-setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/emily-optimisear-generate-recommendations/for_paper")
-pdf("Figure1.pdf", width=10, height=6)
+setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
+pdf("Figure4.pdf", width=10, height=6)
   ggsurvfit(fit, linewidth = 1.5) + 
   add_censor_mark() +
   add_confidence_interval() +
@@ -81,7 +81,7 @@ pdf("Figure1.pdf", width=10, height=6)
     scale_y_continuous(
       name = expression(
         atop(
-          "Probability of first baseline-adjusted",
+          "Proportion without first baseline-adjusted",
           "Grade" >= 3 ~ " PRO-CTCAE score"
         )
       )
