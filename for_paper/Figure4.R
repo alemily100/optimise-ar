@@ -62,10 +62,10 @@ tbl_grob <- tableGrob(
 
 setwd("C:/Users/ealger/OneDrive - The Institute of Cancer Research/M/PhD/OPTIMISE-AR (PRO Guidance paper)/Aim 2/paper/optimise-ar/for_paper")
 pdf("Figure4.pdf", width=10, height=6)
-  ggsurvfit(fit, linewidth = 1.5) + 
+p<-  ggsurvfit(fit, linewidth = 1.5) + 
   add_censor_mark() +
   add_confidence_interval() +
-  scale_ggsurvfit() + add_risktable()+
+  scale_ggsurvfit() + add_risktable(stats_label = list("Number at risk (number censored)", "Events"))+
   scale_color_manual(
     values = c(
       "Dose 1" = "#66C2A5",   # Dose level 1
@@ -91,5 +91,6 @@ pdf("Figure4.pdf", width=10, height=6)
       xmin = -0.5, xmax = 1.75,  # x-position range for table
       ymin = 0.05, ymax = 0.35  # y-position range for table
     )
+print(p)
 dev.off()
 
