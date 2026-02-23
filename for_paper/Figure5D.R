@@ -156,8 +156,8 @@ study<-trial_sim_original(u, v, sample,no_enrolled, phi, true_tox_c, true_tox_p,
 ### FIGURE GENERATION
 time.dlt<- data.frame(study[[2]])
 times<- data.frame(study[[1]])
-times$start<-c(sapply(1:5, function(k) ((k-1)*5):(5*k-3)))
-times$end<-c(sapply(1:5, function(k) ((5*k-2):(5*k))))
+times$start<-c(sapply(1:5, function(k) ((k-1)*6):(6*(k-1)+2)))
+times$end<-c(sapply(1:5, function(k) ((5*(k-1)+k+3):(5*(k-1)+k+5))))
 colnames(times)<-c("id", "dose", "cdlt", "pdlt", "start", "end")
 cdlt_elements<-(times%>%filter(cdlt!=0))[,1]
 pdlt_elements<-(times%>%filter(pdlt!=0))[,1]
@@ -189,7 +189,7 @@ ggplot(times, aes(y = id)) +
   guides(fill = guide_legend(order = 1), color = guide_legend(order = 2)) +
   scale_y_discrete(labels = paste("Patient", seq_along(levels(times$id)))) +
   theme_minimal(base_size = 14)+
-  scale_x_continuous(breaks = 1:25)+
+  scale_x_continuous(breaks = 1:30)+
   theme(
     panel.grid.minor = element_blank())
 dev.off()
