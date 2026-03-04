@@ -53,9 +53,9 @@ fm1 <- lmer(adjusted_value ~  timepoint + factor(dose) + (1 | id) + baseline, di
 tidy_model <- broom.mixed::tidy(fm1, effects = "fixed", conf.level=0.95, conf.int = TRUE)
 
 summary<-summary%>%mutate(pred = case_when(
-  dose == 1 ~ tidy_model$estimate[1]+tidy_model$estimate[2]*timepoint,
-  dose == 2 ~ tidy_model$estimate[1]+tidy_model$estimate[2]*timepoint+tidy_model$estimate[3],
-  dose == 3 ~ tidy_model$estimate[1]+tidy_model$estimate[2]*timepoint+tidy_model$estimate[4]
+  dose == 1 ~ tidy_model$estimate[1]+tidy_model$estimate[2]*timepoint + tidy_model$estimate[5]*mean(diff$baseline, na.rm=TRUE),
+  dose == 2 ~ tidy_model$estimate[1]+tidy_model$estimate[2]*timepoint+tidy_model$estimate[3] + tidy_model$estimate[5]*mean(diff$baseline, na.rm=TRUE),
+  dose == 3 ~ tidy_model$estimate[1]+tidy_model$estimate[2]*timepoint+tidy_model$estimate[4] + tidy_model$estimate[5]*mean(diff$baseline, na.rm=TRUE)
 ))
   
 #### FIGURE GENERATION
@@ -85,7 +85,7 @@ summary %>% ggplot(aes(x = as.factor(timepoint), y = mean, group=as.factor(dose)
   guides(shape = guide_legend(title = "Dose"),
          colour = guide_legend(title = "Dose"))+
           theme_minimal(base_size=14)+
-          xlab("Weeks from baseline") + ylab("Mean change from baseline across timepoints \n for EORTC QLQ-C30 Global health status score") +
+          xlab("Weeks from baseline") + ylab("Mean change from baseline \n (EORTC QLQ-C30 global health status)") +
   scale_fill_manual(
     name = "Threshold",
     values = c(
