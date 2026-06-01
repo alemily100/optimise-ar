@@ -2,7 +2,7 @@
 
 This repository contains the code used to simulate results for the paper **A practical toolkit with recommendations for analysing and visualising patient-reported outcomes in early phase dose-finding oncology trials: OPTIMISE-AR**. 
 
-Alger, Emily, et al. "A practical toolkit with recommendations for analysing and visualising patient-reported outcomes in early phase dose-finding oncology trials (OPTIMISE-AR)." The Lancet Oncology (2026).
+**Alger, Emily, et al. "A practical toolkit with recommendations for analysing and visualising patient-reported outcomes in early phase dose-finding oncology trials (OPTIMISE-AR)." The Lancet Oncology (2026).**
 
 ## Background 
 OPTIMISE-AR promotes appropriate analysis and data visualisation of PRO data, facilitating robust, patient-centred tolerability conclusions and supporting the broader development of tolerable and effective treatments. This repository provides R code for simulating synthetic data and generating the associated figures and case studies presented in this paper.
